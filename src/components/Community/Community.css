@@ -1,5 +1,8 @@
 .join-container {
-    background-color: #9146f3;
+  background: #0d324d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0d324d, #baf734);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0d324d, #baf734); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
     padding: 40px;
     border-radius: 10px;
     text-align: center;
@@ -59,14 +62,13 @@
   
   .social-icons .social-icon {
     font-size: 32px;
-    color: #1F3B70; /* Fallback color */
-    background-image: linear-gradient(to left, #1F3B70, #FFAE3B);
+    color: #ffffff; /* Fallback color */
     -webkit-text-fill-color: transparent;
     transition: color 0.3s;
     cursor: pointer;
   }
   
   .social-icons .social-icon:hover {
-    color: #FFAE3B; /* Change color on hover */
+    color: #030200; /* Change color on hover */
   }
   

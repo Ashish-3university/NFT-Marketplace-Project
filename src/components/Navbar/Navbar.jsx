@@ -19,25 +19,27 @@ const Navbar = () => {
             <div className="collapse navbar-collapse nav-section" id="navbarSupportedContent">
               <ul className="navbar-nav mb-lg-0">
               <li className="nav-item">
-                  <div to="#portfolio"  
-                    className="nav-link inter-semibold  navbar-titles" aria-current="page">Portfolio</div>
+                <NavLink to="/" className="text-decoration-none"><div  
+                    className="nav-link  inter-semibold  navbar-titles" aria-current="page">Home</div></NavLink>
+                </li>
+              <li className="nav-item">
+                  <NavLink to="/marketplace" className="text-decoration-none"><div to="#portfolio"  
+                    className="nav-link inter-semibold  navbar-titles" aria-current="page">Marketplace</div></NavLink>
                 </li>
 
                 <li className="nav-item">
-                  <div to="#services"  
-                    className="nav-link  inter-semibold  navbar-titles" aria-current="page">Services</div>
+                <NavLink to="/create-nft" className="text-decoration-none"> <div  
+                    className="nav-link  inter-semibold  navbar-titles" aria-current="page">Create NFT</div></NavLink>
                 </li>
 
+
                 <li className="nav-item">
-                  <div to="#about" 
-                    className="nav-link  inter-semibold  navbar-titles" aria-current="page">About</div>
+                <NavLink to="https://3university.io" className="text-decoration-none"> <div  
+                    className="nav-link  inter-semibold  navbar-titles" aria-current="page">3.0 University</div></NavLink>
                 </li>
-                <li className="nav-item">
-                <div to="#question" 
-                 className="nav-link  inter-semibold  navbar-titles" aria-current="page">FAQ</div>
-                </li>
+                
                 <li className="nav-item d-lg-none d-md-block">
-                <div to="#contact"  
+                <div to="/"  
                  className="nav-link  inter-semibold  navbar-titles" aria-current="page">Contact</div>
                 </li>
                 <li className="nav-item navbar-btn d-lg-block d-none">

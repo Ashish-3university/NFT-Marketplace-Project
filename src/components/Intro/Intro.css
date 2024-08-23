@@ -4,12 +4,12 @@
 .home {
     height: 100vh;
     width: 100%;
-    background: hsla(219, 57%, 28%, 1);
+    background-color: rgb(0, 18, 53);
     background: linear-gradient(90deg, hsla(219, 57%, 28%, 1) 0%, hsla(219, 76%, 44%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(219, 57%, 28%, 1) 0%, hsla(219, 76%, 44%, 1) 100%);
 }
 .gradient-text{
-  background-image: linear-gradient(to left, #1F3B70, #FFAE3B);
+  background-image: linear-gradient(to left, #1F3B70, #BAF734);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -64,12 +64,13 @@
     font-weight: 500;
     border: none;
     border-radius: 25px;
-    background-color: #FFAE3B;
-    color: white;
+    background-color: #b4ff13;
+    color: rgb(0, 0, 0);
     transition: all ease-in 0.3s;
   }
   .button-primary:hover{
     background-color: black;
+    color: white;
   }
   
   .button-secondary{

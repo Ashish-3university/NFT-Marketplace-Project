@@ -1,0 +1,23 @@
+.nft-detail-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .nft-detail-image img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .nft-detail-info {
+    flex: 1;
+  }
+  
+  .nft-price {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .nft-description {
+    margin-top: 20px;
+  }

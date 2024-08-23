@@ -13,22 +13,22 @@ const Community = () => {
           <button type="submit" className="btn btn-primary">Join Now</button>
         </form>
         <div className="social-icons d-flex justify-content-center gap-3">
-          <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://chat.whatsapp.com/FSl4a1idtDIA50pYE1DBFF" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp size={32} className="social-icon" />
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/real3uni/" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={32} className="social-icon" />
           </a>
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.gg/yb83GAqFBQ" target="_blank" rel="noopener noreferrer">
             <FaDiscord size={32} className="social-icon" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/real3uni" target="_blank" rel="noopener noreferrer">
             <FaTwitter size={32} className="social-icon" />
           </a>
-          <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/+uvxS3oxnYQsyZWQ1" target="_blank" rel="noopener noreferrer">
             <FaTelegram size={32} className="social-icon" />
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/real3uni/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={32} className="social-icon" />
           </a>
         </div>

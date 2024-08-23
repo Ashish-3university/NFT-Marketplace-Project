@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaWhatsapp, FaDiscord, FaTelegram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -8,19 +8,16 @@ const Footer = () => {
         <footer className="pt-5">
           <ul className="nav justify-content-center">
             <li className="nav-item">
-              <a href="#" className="nav-link px-2 text-white">Home</a>
+              <a href="/" className="nav-link px-2 text-white">Home</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link px-2 text-white">Features</a>
+              <a href="/marketplace" className="nav-link px-2 text-white">Marketplace</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link px-2 text-white">Pricing</a>
+              <a href="/create-nft" className="nav-link px-2 text-white">Crete NFT</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link px-2 text-white">FAQs</a>
-            </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link px-2 text-white">About</a>
+              <a href="https://3university.io" className="nav-link px-2 text-white">3.0 University</a>
             </li>
           </ul>
         </footer>
@@ -31,23 +28,23 @@ const Footer = () => {
                 <use xlinkHref="#bootstrap" />
               </svg>
             </a>
-            <span className="mb-md-0 text-white">&copy; 2024 Company, Inc</span>
+            <span className="mb-md-0 text-white">&copy; 3.0 University, Inc</span>
           </div>
           <ul className="nav mb-3 col-md-4 justify-content-end list-unstyled d-flex">
             <li className="ms-3">
-              <a className="text-white" href="#">
-                <FaTwitter size={28} />
-              </a>
+            <a href="https://discord.gg/yb83GAqFBQ" target="_blank" rel="noopener noreferrer">
+            <FaDiscord size={32} className="social-icon" />
+          </a>
             </li>
             <li className="ms-3">
-              <a className="text-white" href="#">
-                <FaInstagram size={28} />
-              </a>
+            <a href="https://chat.whatsapp.com/FSl4a1idtDIA50pYE1DBFF" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp size={32} className="social-icon" />
+          </a>
             </li>
             <li className="ms-3">
-              <a className="text-white" href="#">
-                <FaFacebook size={28} />
-              </a>
+            <a href="https://t.me/+uvxS3oxnYQsyZWQ1" target="_blank" rel="noopener noreferrer">
+            <FaTelegram size={32} className="social-icon" />
+          </a>
             </li>
           </ul>
         </footer>

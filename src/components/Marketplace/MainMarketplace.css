@@ -1,0 +1,78 @@
+.nft-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin: 10px;
+  }
+  
+  .nft-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .nft-card img {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .prices {
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .card-price {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .favorite-btn {
+    color: #e74c3c;
+  }
+  
+  .pagination .btn-link {
+    color: #007bff;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px 15px;
+    margin-right: 10px;
+  }
+  
+  .pagination .btn-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+
+  .pricing{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+  }
+
+  .card-body{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 10px;
+  }
+
+  .detail-nft-link{
+    text-decoration: none;
+  }
+
+  .mainmarketplace-title{
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 60px;
+  }
+  

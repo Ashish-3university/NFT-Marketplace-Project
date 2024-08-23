@@ -1,7 +1,9 @@
 import React from 'react';
 import './Marketplace.css';
+import { useNavigate } from 'react-router-dom';
 
 const Marketplace = () => {
+  const navigate = useNavigate()
   const cards = [
     {
       id: "Pomeranian Doge",
@@ -23,6 +25,26 @@ const Marketplace = () => {
       price: "£4.96",
       image: "https://enefti.modeltheme.com/wp-content/uploads/2022/01/28aa9794.png.png",
     },
+    {
+      id: "Project Crack",
+      price: "£56",
+      image: "https://react-bitakon.netlify.app/assets/img/bid/bid-img-12.jpg",
+    },
+    {
+      id: "Thunderbolt",
+      price: "£8.90",
+      image: "https://binaboxnextjs.vercel.app/assets/images/product/product7.jpg",
+    },
+    {
+      id: "Pomeranian Doge",
+      price: "£6.09",
+      image: "https://enefti.modeltheme.com/wp-content/uploads/2022/08/2.jpg",
+    },
+    {
+      id: "Strange Art",
+      price: "£7.46",
+      image: "https://enefti.modeltheme.com/wp-content/uploads/2022/08/4.jpg",
+    },
   ];
 
   return (
@@ -43,7 +65,15 @@ const Marketplace = () => {
             </div>
           </div>
         ))}
+        <button
+              type='button'
+              className='button-secondary'
+              onClick={() => {
+                navigate('/marketplace');
+              }}
+            >Explore Marketplace</button>
       </div>
+      
     </div>
   );
 };

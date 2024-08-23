@@ -1,0 +1,27 @@
+.page-title{
+    color: #0b0b0b;
+    font-size: 72px;
+    line-height: 1.181em;
+    font-weight: 700
+}
+
+.page-title2{
+    color: #0b0b0b;
+    font-size: 52px;
+    font-weight: 700
+}
+
+.page-desc{
+    font-size: 18px;
+    color: #393939;
+    margin-bottom: 32px;
+}
+
+.page404-custom{
+    transition: all 0.5s ease;
+}
+
+.page404-custom:hover{
+    transition: all 0.3s ease-in;
+    transform: translate(0, -3px);
+}
