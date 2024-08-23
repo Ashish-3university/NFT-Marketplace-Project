@@ -1,0 +1,91 @@
+.home-top{
+    margin: 0px !important;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background: hsla(219, 57%, 28%, 1);
+    background: linear-gradient(90deg, hsla(219, 57%, 28%, 1) 0%, hsla(219, 76%, 44%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(219, 57%, 28%, 1) 0%, hsla(219, 76%, 44%, 1) 100%);
+}
+.gradient-text{
+  background-image: linear-gradient(to left, #1F3B70, #FFAE3B);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+}
+
+/* Home 2 css */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+  }
+  
+  .carousel-caption h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+  }
+  
+  .btn-color {
+    background-color: var(--secondary-blue);
+    color:white;
+  }
+  
+  .btn-color:hover {
+    background-color: var(--primary-light-orange);
+  }
+  
+  .head-color {
+    color: var(--primary-light-orange);
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+
+
+  .button-primary{
+    padding: 10px 17px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    background-color: #FFAE3B;
+    color: white;
+    transition: all ease-in 0.3s;
+  }
+  .button-primary:hover{
+    background-color: black;
+  }
+  
+  .button-secondary{
+    padding: 10px 17px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1.5px solid #1F3B70;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    transition: all ease 0.3s;
+  }
+  
+  .button-secondary:hover{
+    background-color: #1F3B70;
+    color: white;
+    transition: all ease 0.3s;
+    transform: translateX(5px);
+  }

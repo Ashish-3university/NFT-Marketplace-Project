@@ -1,0 +1,31 @@
+.trade-nft {
+    background-color: #121212; /* Dark background color */
+    color: white; /* White text */
+  }
+  
+  .trade-nft h2 {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .trade-nft-item {
+    padding: 20px;
+  }
+  
+  .trade-nft-icon {
+    font-size: 3rem; 
+    color: #FFAE3B; 
+  }
+  
+  .trade-nft-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .trade-nft-text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #b0b0b0; 
+  }
+  

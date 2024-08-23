@@ -1,0 +1,72 @@
+.create-nft-container {
+    padding: 40px;
+  }
+  
+  .upload-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .upload-section:hover{
+    background-color: #f0f0f0;
+  }
+  .upload-box {
+    text-align: center;
+  }
+  
+  .upload-icon {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .browse-files {
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .browse-files:hover {
+    text-decoration: underline;
+  }
+  
+  .file-info {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .nft-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .nft-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .nft-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+.create-nft-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.create-nft-desc{
+    font-size: 18px;
+    font-weight: 400;
+}
+  

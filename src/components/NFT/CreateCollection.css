@@ -1,0 +1,60 @@
+.create-collection-container {
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .create-collection-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .info-text {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .info-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .info-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .upload-section {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .upload-box {
+    text-align: center;
+  }
+  
+  .upload-icon {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .file-info {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .collection-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .collection-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
